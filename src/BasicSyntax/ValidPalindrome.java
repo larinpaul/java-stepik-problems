@@ -28,6 +28,13 @@ public class ValidPalindrome {
     // Sample Output:
     // true
 
+    // The regular expression `[^A-Za-z1-9]+` matches any character that is not an uppercase
+    // letter (A-Z), lowercase letter (a-z), or digit (0-9). The `^` symbol inside the square brackets
+    // negates the character set, meaning it matches any character that is not in the set.
+    // The `+` quantifier means to match one or more occurences of the preceding pattern.
+    // The `replaceAll` method replaces all occurrences of the matched pattern with an empty
+    // string, effectively removing all non-alphanumeric characters from the input string.
+
     public static boolean isPalindromeVerbose(String text) {
         String preparedString = text.replaceAll("[^a-zA-Z0-9]","");
         StringBuilder sbText = new StringBuilder(preparedString);
