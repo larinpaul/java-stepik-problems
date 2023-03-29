@@ -1,4 +1,4 @@
-package BasicSyntax;
+package BasicSyntax.ArraysAndStrings;
 
 public class ValidPalindrome {
 
@@ -39,8 +39,15 @@ public class ValidPalindrome {
         String preparedString = text.replaceAll("[^a-zA-Z0-9]","");
         StringBuilder sbText = new StringBuilder(preparedString);
         String reversedStringFromSbText = sbText.reverse().toString();
-        boolean isValidPalindrome = preparedString.equalsIgnoreCase(reversedStringFromSbText);
-        return isValidPalindrome;
+        return preparedString.equalsIgnoreCase(reversedStringFromSbText);
+    }
+
+    // Переписать с .equals()
+    public static boolean isPalindromeWithEquals(String text) {
+        String preparedString = text.replaceAll("[^a-zA-Z0-9]","");
+        StringBuilder sbText = new StringBuilder(preparedString);
+        String reversedStringFromSbText = sbText.reverse().toString();
+        return sbText.toString().toLowerCase().equals(reversedStringFromSbText.toLowerCase());
     }
 
     public static boolean isPalindrome(String text) {
