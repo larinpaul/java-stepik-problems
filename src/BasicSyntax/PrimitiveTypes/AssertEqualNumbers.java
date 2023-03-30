@@ -1,4 +1,4 @@
-package BasicSyntax;
+package BasicSyntax.PrimitiveTypes;
 
 public class AssertEqualNumbers {
 
