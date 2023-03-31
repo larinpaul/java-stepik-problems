@@ -3,6 +3,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 import static BasicSyntax.ControlStructures.Factorial.alphabet;
+import static BasicSyntax.ControlStructures.MergeArrays.mergeArrays;
 import static BasicSyntax.TypeConversion.IsPowerOfTwo.isPowerOfTwo;
 
 import static BasicSyntax.PrimitiveTypes.FlipBit.flipBit;
@@ -12,16 +13,55 @@ import static BasicSyntax.TypeConversion.UnicodeDistance.charExpression;
 public class Main {
     public static void main(String[] args) {
 
+        //// 2023/03/31
+
+        //// Roles and Scenario
+
+//        public static int[] mergeArrays(int[] a1, int[] a2)
+//
+//        int[] a1 = new int[]{1, 2, 3};
+//        int[] a2 = null;
+////        int[] a2 = new int[]{3, 4, 5};
+//
+//        System.out.println(Arrays.toString(a1));
+//        System.out.println(Arrays.toString(a2));
+//        System.out.println(Arrays.toString(mergeArrays(a1, a2)));
+
+        System.out.println();
+
+        // 00000000
+
+        // 11111111  // 1 2 4 8 16 32 64 128 // -128
+        // 128
+
+        byte b127 = (byte) 127;
+        System.out.println(b127);
+        System.out.println(Integer.toBinaryString(b127));
+
+        byte b128 = (byte) 128;
+        System.out.println(b128);
+        System.out.println(Integer.toBinaryString(b128));
+
+
+        byte b129 = (byte) 129;
+        System.out.println(b129);
+        System.out.println(Integer.toBinaryString(b129));
+        // 129
+        // -127
+        // 11111110
+
+        byte b130 = (byte) 130;
+        System.out.println(b130);
+        System.out.println(Integer.toBinaryString(b130));
+        // 130
+        // -126
+        // 11111101
+
+
+        //
+
+
         //// 2023/03/30
-
-
-
-//        //// Merge Arrays // NOT FINISHED
-//        int[] array1 = {1, 2, 3};
-//        int[] array2 = {3, 4, 5};
-//        int[] mergedArray = mergeArrays(array1, array2);
-//        System.out.println(Arrays.toString(mergedArray));
-
 
 //        //// IsPowerOfTwo
 //        System.out.println(isPowerOfTwo(2)); // true
@@ -37,7 +77,7 @@ public class Main {
 //        int aDistance2 = 29; // Expect y
 //        System.out.println("The distance of " + aDistance2 + " after \\ gives us " + charExpression(aDistance2));
 
-        alphabet();
+//        alphabet();
 
 //        //// Factorial of BigInteger
 //        System.out.println(factorial(1));
@@ -50,12 +90,73 @@ public class Main {
 
         //// 2023/03/29
 
-//        //// flipBit
+        // return value ^ (5 << (bitIndex - 1));
+
+        //// flipBit
+        int value = 7; // (0111)
+
+        // 0101 // 5
+
+        // 1010 // 10
+
+        // 101000 // 0 2 4 9 16 33 = 64
+
+        // 101000 // 40 // 0 0 0 8 0 32 // 40
+
+        // 000101
+        // 101000 // Mask
+
+        // 101101 // 1 0 4 8 0 16 // 29 // РАССКАЗАТЬ ПОЗДНЕЕ
+
+
+        // 0111
+
+        int bitIndex = 4;
+        System.out.println(flipBit(value, bitIndex));
+
+
+
+
+
+
+
+
+        // Почему битиндекс 3, но ты передвинул на 4
+
+        // потому что единичка в двоичной системе стоит на нулевом индексе, и если сместить на 3 единицы, она станет 4й
+        // 0001
+        // 1000
+
+        // 1000
+
+        // 0000
+
+        // 0111
+
+        // 1000 // bitIndex
+
+        // 0111 ^ 1000
+
+        // 1111
+
+        // 15
+
+        //
+
+//        int bitIndex = 4;
+//        System.out.println(flipBit(value, bitIndex));
+
+
+
+
+
+//
 //        // Test case 1: value = 13, bitIndex = 3, expected output = 9
 //        int value1 = 13; // (0b1101)
 //        int bitIndex1 = 3;
 //        int output1 = flipBit(value1, bitIndex1);
 //        System.out.println("Test case 1: value = " + value1 + ", bitIndex = " + bitIndex1 + ", output = " + output1);
+//
 //        // Test case 2: value = 42, bitIndex = 6, expected output = 10
 //        int value2 = 42; // (0b101010)
 //        int bitIndex2 = 6;

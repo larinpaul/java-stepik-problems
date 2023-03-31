@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="1.5 problems from Stepik">
-      <change afterPath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/MergeArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicSyntax/PrimitiveTypes/FlipBit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicSyntax/TypeConversion/IsPowerOfTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicSyntax/TypeConversion/UnicodeDistance.java" afterDir="false" />
+    <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="Some more problems from Stepik">
+      <change afterPath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/RolesAndScenario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicSyntax/AssertEqualNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicSyntax/PrimitiveTypes/AssertEqualNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicSyntax/FlipBit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicSyntax/Gregorian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicSyntax/PrimitiveTypes/Gregorian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicSyntax/ReturnTrueIfTwoTrue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicSyntax/PrimitiveTypes/ReturnTrueIfTwoTrue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/MergeArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSyntax/PrimitiveTypes/FlipBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicSyntax/PrimitiveTypes/FlipBit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +42,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -97,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680096219801</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Some more problems from Stepik">
+      <created>1680183459789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680183459789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3 problems from Stepik" />
     <MESSAGE value="1.5 problems from Stepik" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.5 problems from Stepik" />
+    <MESSAGE value="Some more problems from Stepik" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some more problems from Stepik" />
   </component>
 </project>

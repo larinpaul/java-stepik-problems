@@ -39,7 +39,7 @@ public class Factorial {
 
         // До каких пор нам нужно интерироваться.
 
-        for (char i = 'a'; i != 'z'+1; i++) {
+        for (char i = 'a'; i == 'z'; i++) {
 
 
             System.out.println(i);
