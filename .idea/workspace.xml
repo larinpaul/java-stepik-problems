@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="Some more problems from Stepik">
-      <change afterPath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/RolesAndScenario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/ClassDeclaration/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/ClassDeclaration/Robot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/MergeArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicSyntax/PrimitiveTypes/FlipBit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicSyntax/PrimitiveTypes/FlipBit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/RolesAndScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/RolesAndScenario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +19,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -28,13 +33,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jrt:///usr/lib/jvm/java-17!/java.base/java/lang/Object.class" root0="SKIP_INSPECTION" />
-    <setting file="jrt:///usr/lib/jvm/java-17!/java.base/java/lang/String.class" root0="SKIP_INSPECTION" />
-    <setting file="jrt:///usr/lib/jvm/java-17!/java.base/java/lang/StringBuilder.class" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2NdAE8VXzhdMumCldSHLjVpydkS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,16 +45,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />

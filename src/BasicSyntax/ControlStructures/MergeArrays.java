@@ -59,7 +59,53 @@ public class MergeArrays {
      * @param a2 second sorted array
      * @return new array containing all elements from a1 and a2, sorted
      */
+
     public static int[] mergeArrays(int[] a1, int[] a2) {
+
+        if (a1 == null && a2 == null) {
+            return null;
+        } else if (a1 == null) {
+            return a2;
+        } else if (a2 == null) {
+            return a1;
+        }
+
+        int[] arrayC = new int[a1.length + a2.length];
+
+        int indexA = 0;
+        int indexB = 0;
+
+        for (int indexC = 0; indexC < arrayC.length; indexC++) {
+            if (indexA < a1.length && indexB < a2.length) {
+                if (a1[indexA] < a2[indexB]) {
+                    arrayC[indexC] = a1[indexA];
+                    indexA++;
+                } else {
+                    arrayC[indexC] = a2[indexB];
+                    indexB++;
+                }
+            } else if (indexA < a1.length) {
+                arrayC[indexC] = a1[indexA];
+                indexA++;
+            } else {
+                arrayC[indexC] = a2[indexB];
+                indexB++;
+            }
+        }
+
+        return arrayC;
+    }
+
+
+    public static int[] mergeArraysWhileLoops(int[] a1, int[] a2) {
+
+        if (a1 == null && a2 == null) {
+            return null;
+        } else if (a1 == null) {
+            return a2;
+        } else if (a2 == null){
+            return a1;
+        }
 
         // {1, 2, 3}
         // {3, 4, 5}

@@ -1,4 +1,9 @@
 
+import BasicSyntax.ControlStructures.RolesAndScenario;
+import ObjectOrientedProgramming.ClassDeclaration.Direction;
+import ObjectOrientedProgramming.ClassDeclaration.Robot;
+
+import javax.management.relation.Role;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
@@ -9,23 +14,51 @@ import static BasicSyntax.TypeConversion.IsPowerOfTwo.isPowerOfTwo;
 import static BasicSyntax.PrimitiveTypes.FlipBit.flipBit;
 import static BasicSyntax.TypeConversion.IsPowerOfTwo.isPowerOfTwoVerbose;
 import static BasicSyntax.TypeConversion.UnicodeDistance.charExpression;
+import static ObjectOrientedProgramming.ClassDeclaration.Robot.moveRobot;
 
 public class Main {
     public static void main(String[] args) {
 
-        //// 2023/03/31
+        //// 2023/04/02
+
+        //// Move Robot
+
+        Robot robot = new Robot(0, 0, Direction.DOWN);
+        moveRobot(robot, -10, 20);
+
 
         //// Roles and Scenario
 
-//        public static int[] mergeArrays(int[] a1, int[] a2)
-//
-//        int[] a1 = new int[]{1, 2, 3};
-//        int[] a2 = null;
-////        int[] a2 = new int[]{3, 4, 5};
-//
-//        System.out.println(Arrays.toString(a1));
-//        System.out.println(Arrays.toString(a2));
-//        System.out.println(Arrays.toString(mergeArrays(a1, a2)));
+        String[] my_roles = {"Городничий", "Аммос Федорович", "Артемий Филиппович", "Лука Лукич"};
+        String[] my_textLines = {
+                "Городничий: Я пригласил вас, господа, с тем, чтобы сообщить вам пренеприятное известие: к нам едет ревизор.",
+                "Аммос Федорович: Как ревизор?", "Артемий Филиппович: Как ревизор?",
+                "Городничий: Ревизор из Петербурга, инкогнито. И еще с секретным предписаньем.",
+                "Аммос Федорович: Вот те на!", "Артемий Филиппович: Вот не было заботы, так подай!",
+                "Лука Лукич: Господи боже! еще и с секретным предписаньем!",
+                "Городничий: Господа, сообщаю вам пренеприятное известие, его поведал мне Артемий Филиппович: к нам едет ревизор."
+        };
+
+        String rolesAndScenarioResult = RolesAndScenario.printTextPerRole(my_roles, my_textLines);
+        System.out.println(rolesAndScenarioResult);
+
+        //// 2023/03/31
+
+        //// MergeArrays
+
+        // public static int[] mergeArrays(int[] a1, int[] a2)
+
+        int[] a1 = new int[]{1, 2, 3};
+        int[] a2 = new int[]{3, 4, 5};
+        int[] a1null = null;
+        int[] a2null = null;
+
+        System.out.println(Arrays.toString(a1));
+        System.out.println(Arrays.toString(a2));
+        System.out.println(Arrays.toString(mergeArrays(a1, a2)));
+        System.out.println(Arrays.toString(mergeArrays(a1null, a2)));
+        System.out.println(Arrays.toString(mergeArrays(a1, a2null)));
+        System.out.println(Arrays.toString(mergeArrays(a1null, a2null)));
 
         System.out.println();
 
@@ -115,12 +148,6 @@ public class Main {
         System.out.println(flipBit(value, bitIndex));
 
 
-
-
-
-
-
-
         // Почему битиндекс 3, но ты передвинул на 4
 
         // потому что единичка в двоичной системе стоит на нулевом индексе, и если сместить на 3 единицы, она станет 4й
@@ -145,9 +172,6 @@ public class Main {
 
 //        int bitIndex = 4;
 //        System.out.println(flipBit(value, bitIndex));
-
-
-
 
 
 //
