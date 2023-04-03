@@ -139,7 +139,6 @@ public class RolesAndScenario {
     // // каждой строке бегать по ролям, но break вам в помощь)
 
 
-
     // We loop through each tole and each line of text,
     // and we group together all the lines of text for each tole in a single string output
 
@@ -167,7 +166,8 @@ public class RolesAndScenario {
                             .append(textLines[lineIndex]
                             .replaceFirst(name + ": ", ""))
                             .append("\n");
-                }
+
+                } System.out.println("Testing lineIndex: " + lineIndex); // Потом расскажи
             }
             // Add an extra newline to separate this role from the text
             result.append("\n");

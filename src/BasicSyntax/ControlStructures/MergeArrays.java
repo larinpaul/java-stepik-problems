@@ -62,8 +62,8 @@ public class MergeArrays {
 
     public static int[] mergeArrays(int[] a1, int[] a2) {
 
-        if (a1 == null && a2 == null) {
-            return null;
+        if (a1 == null && a2 == null) {   // можно реализовать одной проверкой и вернуть пустой массив
+            return null; // null возращать нехорошо, верни пустой массив
         } else if (a1 == null) {
             return a2;
         } else if (a2 == null) {

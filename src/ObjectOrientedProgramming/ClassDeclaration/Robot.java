@@ -91,8 +91,6 @@ public class Robot {
             direction = Direction.RIGHT;
         } else if (direction == Direction.LEFT) {
             direction = Direction.DOWN;
-        } else if (direction == Direction.LEFT) {
-            direction = Direction.DOWN;
         } else if (direction == Direction.RIGHT) {
             direction = Direction.UP;
         }
@@ -126,46 +124,60 @@ public class Robot {
     }
 
     public static void moveRobot(Robot robot, int toX, int toY) {
+        // Get the current coordinates and direction of the robot
+        int x = robot.getX();
+        int y = robot.getY();
+        Direction direction = robot.getDirection();
 
-        int targetX = toX;
-        int targetY = toY;
-
-        int currentX = robot.getX();
-        int currentY = robot.getY();
-        Direction currentDirection = robot.getDirection();
-
-        // Find the relative position of the target point
-        int relativeX = targetX - currentX;
-        int relativeY = targetY - currentY;
-
-        // Face the correct direction to move towards the target point
-        while ((currentDirection != Direction.UP && relativeY > 0) ||
-                (currentDirection != Direction.DOWN && relativeY < 0)) {
-            if (currentDirection == Direction.LEFT || currentDirection == Direction.RIGHT) {
-                robot.turnLeft();
-            } else {
-                robot.turnRight();
+        // Loop until the robot reaches the target position
+        while (x != toX || y != toY) {
+            // Check if the robot needs to move horizontally
+            if (x != toX) {
+                // Check if the robot needs to move right or left
+                if (x < toX) {
+                    // Turn the robot right if it is not facing right
+                    while (direction != Direction.RIGHT) {
+                        robot.turnRight();
+                        direction = robot.getDirection();
+                    }
+                } else {
+                    // Turn the robot left if it is not facing left
+                    while (direction != Direction.LEFT) {
+                        robot.turnLeft();
+                        direction = robot.getDirection();
+                    }
+                }
+                // Move the robot forward until it reaches the target x coordinate
+                while (x != toX) {
+                    robot.stepForward();
+                    x = robot.getX();
+                }
             }
-            currentDirection = robot.getDirection();
-        }
 
-        while ((currentDirection != Direction.RIGHT && relativeX > 0) ||
-                (currentDirection != Direction.LEFT && relativeX < 0)) {
-            if (currentDirection == Direction.UP || currentDirection == Direction.DOWN) {
-                robot.turnLeft();
-            } else {
-                robot.turnRight();
+            // Check if the robot needs to move vertically
+            if (y != toY) {
+                // Check if the robot needs to move up or down
+                if (y < toY) {
+                    // Turn the robot up if it is not facing up
+                    while (direction != Direction.UP) {
+                        robot.turnRight();
+                        direction = robot.getDirection();
+                    }
+                } else {
+                    // Turn the robot down if it is not facing down
+                    while (direction != Direction.DOWN) {
+                        robot.turnLeft();
+                        direction = robot.getDirection();
+                    }
+                }
+                // Move the robot forward until it reaches the target y coordinate
+                while (y != toY) {
+                    robot.stepForward();
+                    y = robot.getY();
+                }
             }
-            currentDirection = robot.getDirection();
-        }
-
-        // Move toward the target point
-        while (robot.getX() != targetX) {
-            robot.stepForward();
-        }
-        while (robot.getY() != targetY) {
-            robot.stepForward();
         }
     }
+
 
 }

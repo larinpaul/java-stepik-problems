@@ -2,6 +2,7 @@
 import BasicSyntax.ControlStructures.RolesAndScenario;
 import ObjectOrientedProgramming.ClassDeclaration.Direction;
 import ObjectOrientedProgramming.ClassDeclaration.Robot;
+import ObjectOrientedProgramming.Inheritance.ComplexNumber;
 
 import javax.management.relation.Role;
 import java.lang.reflect.Array;
@@ -14,17 +15,75 @@ import static BasicSyntax.TypeConversion.IsPowerOfTwo.isPowerOfTwo;
 import static BasicSyntax.PrimitiveTypes.FlipBit.flipBit;
 import static BasicSyntax.TypeConversion.IsPowerOfTwo.isPowerOfTwoVerbose;
 import static BasicSyntax.TypeConversion.UnicodeDistance.charExpression;
+import static ObjectOrientedProgramming.AbstractClassesAndInterfaces.Integrate.integrate;
 import static ObjectOrientedProgramming.ClassDeclaration.Robot.moveRobot;
 
 public class Main {
     public static void main(String[] args) {
 
+
+        //// 2023/04/03
+
+        //// Integrate
+
+        // * `f` is an object implementing the DoubleUnaryOperator interface,
+        // which represents the mathematical function to be integrated.
+        // Its `applyAsDouble` method takes a double value and returns the result of applying the function to that value
+        // * `a`: a double value representing the lower bound of the integration interval
+        // * `b`: a double value representing the upper bound of the integration interval.
+        // The method integrates the function `f` over the interval `[a, b]` using the left rectangle method,
+        // which approximates the area under the curve by the sum of the areas of left rectangles,
+        // each with a width of `dx` (the step size) and a height equal to the function value
+        // at the left endpoint of the rectangle
+        System.out.println(integrate(x -> 1, 0, 10)); // Should return 10.0
+        System.out.println(integrate(x -> 1, 5, 15)); // Should return around 10
+        System.out.println(integrate(x -> 1, 0, 150)); // Should return 150.0
+        System.out.println(integrate(x -> 10, 0, 100)); // Should return around 1000
+        System.out.println(integrate(x -> 10, 10, 100)); // Should return around 900
+
+        //// ComplexNumber equals() and hashCode()
+        ComplexNumber cn1 = new ComplexNumber(2.3412, 7.2334);
+        ComplexNumber cn2 = new ComplexNumber(2.3412,7.2334);
+        ComplexNumber cn3 = new ComplexNumber(3.23124,1435.23);
+        System.out.println("equals() cn1 and cn2 is true -> " + cn1.equals(cn2));
+        System.out.println("equals() cn2 and cn2 is true -> " + cn2.equals(cn1));
+        System.out.println("equals() cn2 and cn3 is false -> " + cn2.equals(cn3));
+        System.out.println("equals() cn3 and cn1 is false -> " + cn3.equals(cn1));
+        System.out.println("hashCode() cn1 and cn2 is true -> " + (cn1.hashCode() == cn2.hashCode()));
+        System.out.println("hashCode() cn2 and cn1 is true -> " + (cn2.hashCode() == cn1.hashCode()));
+        System.out.println("hashCode() cn3 and cn1 is false -> " + (cn3.hashCode() == cn2.hashCode()));
+        System.out.println("hasCode() cn3 and cn2 is false -> " + (cn3.hashCode() == cn2.hashCode()));
+
         //// 2023/04/02
 
         //// Move Robot
+        // Initialize the starting coordinates for the robot
+        int x = -1, y = 1;
+        System.out.println("Starting position of the robot is: x = " + x + " ; y " + y + "\n");
+        // Specify an array of the target coordinates for the robot to reach
+        int[][] arr = new int[][]{{3, 1}, {-1, 1}, {-3, 1}};
 
-        Robot robot = new Robot(0, 0, Direction.DOWN);
-        moveRobot(robot, -10, 20);
+        // Loop through each target position in the array
+        for (int i = 0; i < arr.length; i++) {
+            // Get the x and y coordinates of the current target position
+            int toX = arr[i][0];
+            int toY = arr[i][1];
+            // Print out the current target position
+            System.out.println("Finishing position: toX = " + toX + " ; toY = " + toY);
+            // Loop through each direction that the robot can face
+            for (Direction direction : Direction.values()) {
+                // Print out the current direction of the robot
+                System.out.print("Direction: " + direction + "; ");
+                // Create a new instance of the Robot class with the starting position and current direction
+                Robot robot = new Robot(x, y, direction);
+                // Move the robot to the current target position
+                moveRobot(robot, toX, toY);
+                // Print out whether or not the robot has reached the target position
+                System.out.println("Result is " + (robot.getX() == toX && robot.getY() == toY)
+                        + "(x = " + robot.getX() + "; y = " + robot.getY() + ")");
+            }
+            System.out.println(); // Blank line for readability after one loop iteration
+        }
 
 
         //// Roles and Scenario
@@ -127,6 +186,9 @@ public class Main {
 
         //// flipBit
         int value = 7; // (0111)
+        int bitIndex = 4;
+        System.out.println(flipBit(value, bitIndex));
+
 
         // 0101 // 5
 
@@ -144,8 +206,8 @@ public class Main {
 
         // 0111
 
-        int bitIndex = 4;
-        System.out.println(flipBit(value, bitIndex));
+//        int bitIndex = 4;
+//        System.out.println(flipBit(value, bitIndex));
 
 
         // Почему битиндекс 3, но ты передвинул на 4
