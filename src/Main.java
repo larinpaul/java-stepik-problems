@@ -45,6 +45,11 @@ public class Main {
         ComplexNumber cn1 = new ComplexNumber(2.3412, 7.2334);
         ComplexNumber cn2 = new ComplexNumber(2.3412,7.2334);
         ComplexNumber cn3 = new ComplexNumber(3.23124,1435.23);
+
+        Object newObj = new ComplexNumber(1,2);
+        cn1.getRe();
+        newObj;
+
         System.out.println("equals() cn1 and cn2 is true -> " + cn1.equals(cn2));
         System.out.println("equals() cn2 and cn2 is true -> " + cn2.equals(cn1));
         System.out.println("equals() cn2 and cn3 is false -> " + cn2.equals(cn3));

@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="Some more problems from Stepik">
-      <change afterPath="$PROJECT_DIR$/src/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/Integrate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/ComplexNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/EqualsAndHashCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+    <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="Some more problems from Stepik and some random OOP practice">
+      <change afterPath="$PROJECT_DIR$/src/FInalStuff/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCallTuesday/FinalFIelds/FInalFieldHeir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCallTuesday/FinalFIelds/FinalField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCallTuesday/FinalFIelds/FinalFieldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCallTuesday/Incrementing/MainIncrementing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/Immutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/ImmutableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/Mutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/MutableImmutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/MutableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCallTuesday/ObjectInit/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCallTuesday/ObjectInit/PersonChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCallTuesday/ObjectInit/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/MergeArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/RolesAndScenario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasicSyntax/ControlStructures/RolesAndScenario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/ClassDeclaration/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/ClassDeclaration/Robot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,35 +51,90 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main2">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ImmutableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkypeCallTuesday.MutableImmutable.ImmutableTest" />
       <module name="stepik-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkypeCallTuesday.MutableImmutable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FInalStuff.Main" />
       <module name="stepik-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FInalStuff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainIncrementing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkypeCallTuesday.Incrementing.MainIncrementing" />
+      <module name="stepik-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkypeCallTuesday.Incrementing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MutableImmutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkypeCallTuesday.MutableImmutable.MutableImmutable" />
+      <module name="stepik-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkypeCallTuesday.MutableImmutable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkypeCallTuesday.ObjectInit.PersonTest" />
+      <module name="stepik-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkypeCallTuesday.ObjectInit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainIncrementing" />
+        <item itemvalue="Application.MutableImmutable" />
+        <item itemvalue="Application.PersonTest" />
+        <item itemvalue="Application.ImmutableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680183459789</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Some more problems from Stepik and some random OOP practice">
+      <created>1680529055739</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680529055739</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +200,7 @@
     <MESSAGE value="3 problems from Stepik" />
     <MESSAGE value="1.5 problems from Stepik" />
     <MESSAGE value="Some more problems from Stepik" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some more problems from Stepik" />
+    <MESSAGE value="Some more problems from Stepik and some random OOP practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some more problems from Stepik and some random OOP practice" />
   </component>
 </project>
