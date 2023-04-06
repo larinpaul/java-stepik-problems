@@ -48,7 +48,7 @@ public class Main {
 
         Object newObj = new ComplexNumber(1,2);
         cn1.getRe();
-        newObj;
+//        newObj;
 
         System.out.println("equals() cn1 and cn2 is true -> " + cn1.equals(cn2));
         System.out.println("equals() cn2 and cn2 is true -> " + cn2.equals(cn1));
