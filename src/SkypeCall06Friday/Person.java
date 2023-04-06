@@ -99,13 +99,26 @@ public class Person {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (o == null || getClass() != o.getClass()) return false; // у налла не вызвать метод
+        // сравнить Child child1 и Parent parent1
+
+
         Person person = (Person) o;
         return age == person.age && Objects.equals(name, person.name);
     }
 
+
+
     @Override
     public int hashCode() {
+        final int primeMultiplier = 31;
+        int myHash = 17;
+        myHash = (primeMultiplier + this.age) * myHash ;
+
+
+
+
+
         return Objects.hash(name, age);
     }
 //    public static int hash(Object... values) {
@@ -118,10 +131,10 @@ public class Person {
 
     // One way to improve the `hashCode()` method is to include only a subset of the object's fields
     // that are more likely to be unique:
-    @Override
-    public int hashCodeByName() {
-        return Objects.hash(name);
-    }
+//    @Override
+//    public int hashCodeByName() {
+//        return Objects.hash(name);
+//    }
 
     @Override
     public String toString() {

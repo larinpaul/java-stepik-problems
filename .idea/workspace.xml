@@ -4,35 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="Solved AsciiCharSequence">
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/CheckLabels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/CheckLabels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/KeywordAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/Label.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/MessageFiltersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/NegativeTextAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/SpamAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/TextAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/TooLongTextAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkypeCall06Friday/MyClassToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkypeCall06Friday/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkypeCall06Friday/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkypeCall06Friday/StringSbCompare.java" afterDir="false" />
+    <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="Solved AsciiCharSequence, MessageFilter; reviewed EqualsAndHashCode, MutableImmutable, changed the names of some folder for better navigation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FInalStuff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall05ThursdayFinalStuff/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/ComplexNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/FinalFIelds/FInalFieldHeir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/FinalFIelds/FInalFieldHeir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/FinalFIelds/FinalField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/FinalFIelds/FinalField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/FinalFIelds/FinalFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/FinalFIelds/FinalFieldTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/Incrementing/MainIncrementing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/Incrementing/MainIncrementing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/Immutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/MutableImmutable/Immutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/ImmutableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/MutableImmutable/ImmutableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/Mutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/MutableImmutable/Mutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/MutableImmutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/MutableImmutable/MutableImmutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/MutableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/MutableImmutable/MutableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/ObjectInit/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/ObjectInit/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/ObjectInit/PersonChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/ObjectInit/PersonChild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/ObjectInit/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/ObjectInit/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCall06Friday/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall06Friday/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +49,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringSbCompare">
+  <component name="RunManager" selected="Application.MessageFiltersTest">
     <configuration name="MessageFiltersTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ObjectOrientedProgramming.AbstractClassesAndInterfaces.MessageFilters.MessageFiltersTest" />
       <module name="stepik-java" />
@@ -143,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MessageFiltersTest" />
         <item itemvalue="Application.StringSbCompare" />
         <item itemvalue="Application.PersonTest" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.MyClassToString" />
-        <item itemvalue="Application.MessageFiltersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680765772208</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Solved AsciiCharSequence, MessageFilter; reviewed EqualsAndHashCode, MutableImmutable, changed the names of some folder for better navigation">
+      <created>1680785413431</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680785413431</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +211,8 @@
     <MESSAGE value="Some more problems from Stepik and some random OOP practice" />
     <MESSAGE value="Some random OOP practice" />
     <MESSAGE value="Solved AsciiCharSequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved AsciiCharSequence" />
+    <MESSAGE value="Solved AsciiCharSequence, MessageFilter; reviewed EqualsAndHashCode, MutableImmutable, changed the names of some folder for better navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved AsciiCharSequence, MessageFilter; reviewed EqualsAndHashCode, MutableImmutable, changed the names of some folder for better navigation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
