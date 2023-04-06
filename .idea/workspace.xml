@@ -4,13 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="Some random OOP practice">
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/AsciiCharSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/AsciiCharSequenceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="Solved AsciiCharSequence">
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/CheckLabels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/CheckLabels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/KeywordAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/MessageFiltersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/NegativeTextAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/SpamAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/TextAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/TooLongTextAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCall06Friday/MyClassToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCall06Friday/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCall06Friday/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCall06Friday/StringSbCompare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FInalStuff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FInalStuff/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FInalStuff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall05ThursdayFinalStuff/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/ComplexNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Inheritance/ComplexNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/FinalFIelds/FInalFieldHeir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/FinalFIelds/FInalFieldHeir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/FinalFIelds/FinalField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/FinalFIelds/FinalField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/FinalFIelds/FinalFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/FinalFIelds/FinalFieldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/Incrementing/MainIncrementing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/Incrementing/MainIncrementing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/Immutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/MutableImmutable/Immutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/ImmutableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/MutableImmutable/ImmutableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/Mutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/MutableImmutable/Mutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/MutableImmutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/MutableImmutable/MutableImmutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/MutableImmutable/MutableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/MutableImmutable/MutableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/ObjectInit/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/ObjectInit/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/ObjectInit/PersonChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/ObjectInit/PersonChild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCallTuesday/ObjectInit/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall04Tuesday/ObjectInit/PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -51,13 +75,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AsciiCharSequenceTest">
-    <configuration name="AsciiCharSequenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectOrientedProgramming.AbstractClassesAndInterfaces.AsciiCharSequenceTest" />
+  <component name="RunManager" selected="Application.StringSbCompare">
+    <configuration name="MessageFiltersTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectOrientedProgramming.AbstractClassesAndInterfaces.MessageFilters.MessageFiltersTest" />
       <module name="stepik-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ObjectOrientedProgramming.AbstractClassesAndInterfaces.*" />
+          <option name="PATTERN" value="ObjectOrientedProgramming.AbstractClassesAndInterfaces.MessageFilters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FInalStuff.Main" />
+    <configuration name="MyClassToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkypeCall06Friday.MyClassToString" />
       <module name="stepik-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FInalStuff.*" />
+          <option name="PATTERN" value="SkypeCall06Friday.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,25 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainIncrementing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SkypeCallTuesday.Incrementing.MainIncrementing" />
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkypeCall06Friday.Person" />
       <module name="stepik-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SkypeCallTuesday.Incrementing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MutableImmutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SkypeCallTuesday.MutableImmutable.MutableImmutable" />
-      <module name="stepik-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SkypeCallTuesday.MutableImmutable.*" />
+          <option name="PATTERN" value="SkypeCall06Friday.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +116,24 @@
       </method>
     </configuration>
     <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SkypeCallTuesday.ObjectInit.PersonTest" />
+      <option name="MAIN_CLASS_NAME" value="SkypeCall06Friday.PersonTest" />
       <module name="stepik-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SkypeCallTuesday.ObjectInit.*" />
+          <option name="PATTERN" value="SkypeCall06Friday.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringSbCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkypeCall06Friday.StringSbCompare" />
+      <module name="stepik-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkypeCall06Friday.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AsciiCharSequenceTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainIncrementing" />
-        <item itemvalue="Application.MutableImmutable" />
+        <item itemvalue="Application.StringSbCompare" />
         <item itemvalue="Application.PersonTest" />
+        <item itemvalue="Application.Person" />
+        <item itemvalue="Application.MyClassToString" />
+        <item itemvalue="Application.MessageFiltersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680698098864</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Solved AsciiCharSequence">
+      <created>1680765772207</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680765772208</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +229,18 @@
     <MESSAGE value="Some more problems from Stepik" />
     <MESSAGE value="Some more problems from Stepik and some random OOP practice" />
     <MESSAGE value="Some random OOP practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some random OOP practice" />
+    <MESSAGE value="Solved AsciiCharSequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved AsciiCharSequence" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jrt:///usr/lib/jvm/java-17!/java.base/java/lang/String.class</url>
+          <line>1760</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

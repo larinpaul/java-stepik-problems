@@ -1,4 +1,4 @@
-package SkypeCallTuesday.ObjectInit;
+package SkypeCall04Tuesday.ObjectInit;
 
 public class PersonChild extends Person {
 

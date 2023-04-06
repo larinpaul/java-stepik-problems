@@ -1,4 +1,4 @@
-package SkypeCallTuesday.MutableImmutable;
+package SkypeCall04Tuesday.MutableImmutable;
 
 public class ImmutableTest {
 

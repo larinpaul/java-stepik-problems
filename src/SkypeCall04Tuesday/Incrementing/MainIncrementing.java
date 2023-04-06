@@ -1,4 +1,4 @@
-package SkypeCallTuesday.Incrementing;
+package SkypeCall04Tuesday.Incrementing;
 
 public class MainIncrementing {
 

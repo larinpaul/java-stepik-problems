@@ -52,8 +52,8 @@ public final class ComplexNumber {
         // Check if the passed object is null or of a different class
         if (o == null || getClass() != o.getClass()) return false;
         // Cast the passed object to a ComplexNumber and compare the real and the imaginary parts
-        ComplexNumber that = (ComplexNumber) o;
-        return Double.compare(that.re, re) == 0 && Double.compare(that.im, im) == 0;
+        ComplexNumber myNumber = (ComplexNumber) o;
+        return Double.compare(myNumber.re, re) == 0 && Double.compare(myNumber.im, im) == 0;
         // Comparator interface is used to order the objects of user-defined classes.
         // (Compare two objects of the same class)
         // compare() method compares two class specific objects (x, y) given as parameters. It returns the value:
