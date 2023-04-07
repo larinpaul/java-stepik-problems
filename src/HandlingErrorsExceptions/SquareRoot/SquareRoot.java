@@ -17,14 +17,15 @@ public class SquareRoot {
         if (x < 0) {
             throw new IllegalArgumentException("Expected non-negative number, got " + x);
         }
-        double y = x;
-        while (Math.abs(y * y - x) > 0.0001) {
-            y = (y + x / y) / 2;
-        }
-        return y;
-    }
+        double y = x; // This is an initial estimate for the square root of `x`
+        while (Math.abs(y * y - x) > 0.0001) { // Check if the abs difference between y squared and x is greater than 0.0001
+            y = (y + x / y) / 2;          // If it is, continue to step 3. If it is not, exit the loop and return y
+        } // Update the value of `y` using the formula that takes the average of the current estimate of y and x
+        return y;                                                          // divided by the current estimate `y`
+    }     // Go back to step 2 and repeat the process until the condition is met.
+    // In other words, the loop repeatedly updates the value of `y` until it gets close enough to the true square root of x
 
-    // This loop is an implementation of the Babylonian method
+    // This loop is an implementation of the Babylonian method (Newton-Raphson method)
     // for calculating the square root of a number.
 
     // The idea behind this method is to repeatedly calculate the average

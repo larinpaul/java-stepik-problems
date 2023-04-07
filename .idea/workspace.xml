@@ -4,25 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="Some more problems from Stepik 2023\04\02">
-      <change afterPath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/MethodCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/MethodCallTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/SquareRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/SquareRootTest.java" afterDir="false" />
+    <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="Solved AsciiCharSequence, MessageFilter; reviewed EqualsAndHashCode, MutableImmutable, changed the names of some folder for better navigation">
+      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/GermanShepherd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/InstanceOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Plant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Rex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Trainable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/MethodCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/MethodCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/MethodCallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/MethodCallTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/SquareRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/MessageFiltersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/MessageFiltersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCall05ThursdayFinalStuff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall05WednesdayFinalStuff/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCall06Friday/MyClassToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall06Thursday/MyClassToString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCall06Friday/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall06Thursday/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCall06Friday/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall06Thursday/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCall06Friday/StringSbCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall06Thursday/StringSbCompare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,11 +41,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jrt:///usr/lib/jvm/java-17!/java.base/java/lang/Object.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-17!/java.base/java/lang/String.class" root0="SKIP_INSPECTION" />
+    <setting file="jrt:///usr/lib/jvm/java-17!/java.base/java/lang/StringBuilder.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2NdAE8VXzhdMumCldSHLjVpydkS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,26 +59,71 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SquareRootTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.MessageFiltersTest">
+    <configuration name="InstanceOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkypeCall07Friday.InstanceOf.InstanceOf" />
       <module name="stepik-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkypeCall07Friday.InstanceOf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareRootTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HandlingErrorsExceptions.SquareRoot.SquareRootTest" />
+    <configuration name="MessageFiltersTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectOrientedProgramming.AbstractClassesAndInterfaces.MessageFilters.MessageFiltersTest" />
       <module name="stepik-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HandlingErrorsExceptions.SquareRoot.*" />
+          <option name="PATTERN" value="ObjectOrientedProgramming.AbstractClassesAndInterfaces.MessageFilters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkypeCall06Thursday.PersonTest" />
+      <module name="stepik-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkypeCall06Thursday.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkypeCall07Friday.InstanceOf.Plant" />
+      <module name="stepik-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkypeCall07Friday.InstanceOf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringSbCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SkypeCall06Thursday.StringSbCompare" />
+      <module name="stepik-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SkypeCall06Thursday.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,8 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SquareRootTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MessageFiltersTest" />
+        <item itemvalue="Application.InstanceOf" />
+        <item itemvalue="Application.Plant" />
+        <item itemvalue="Application.StringSbCompare" />
+        <item itemvalue="Application.PersonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +178,35 @@
       <option name="project" value="LOCAL" />
       <updated>1680183459789</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Some more problems from Stepik and some random OOP practice">
+      <created>1680529055739</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680529055739</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Some random OOP practice">
+      <created>1680698098863</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680698098864</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Solved AsciiCharSequence">
+      <created>1680765772207</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680765772208</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Solved AsciiCharSequence, MessageFilter; reviewed EqualsAndHashCode, MutableImmutable, changed the names of some folder for better navigation">
+      <created>1680785413431</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680785413431</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +224,21 @@
     <MESSAGE value="3 problems from Stepik" />
     <MESSAGE value="1.5 problems from Stepik" />
     <MESSAGE value="Some more problems from Stepik" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some more problems from Stepik" />
+    <MESSAGE value="Some more problems from Stepik and some random OOP practice" />
+    <MESSAGE value="Some random OOP practice" />
+    <MESSAGE value="Solved AsciiCharSequence" />
+    <MESSAGE value="Solved AsciiCharSequence, MessageFilter; reviewed EqualsAndHashCode, MutableImmutable, changed the names of some folder for better navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved AsciiCharSequence, MessageFilter; reviewed EqualsAndHashCode, MutableImmutable, changed the names of some folder for better navigation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jrt:///usr/lib/jvm/java-17!/java.base/java/lang/String.class</url>
+          <line>1760</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

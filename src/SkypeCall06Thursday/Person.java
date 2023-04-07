@@ -1,8 +1,6 @@
-package SkypeCall06Friday;
+package SkypeCall06Thursday;
 
 
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.Objects;
 
 public class Person {
