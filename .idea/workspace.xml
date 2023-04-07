@@ -4,25 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="Solved AsciiCharSequence, MessageFilter; reviewed EqualsAndHashCode, MutableImmutable, changed the names of some folder for better navigation">
-      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/GermanShepherd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/InstanceOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Plant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Rex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Trainable.java" afterDir="false" />
+    <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="Learning more OOP on Friday. Pre-call">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/MethodCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/MethodCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/MethodCallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/MethodCallTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HandlingErrorsExceptions/SquareRoot/SquareRoot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/MessageFiltersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/AbstractClassesAndInterfaces/MessageFilters/MessageFiltersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCall05ThursdayFinalStuff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall05WednesdayFinalStuff/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCall06Friday/MyClassToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall06Thursday/MyClassToString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCall06Friday/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall06Thursday/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCall06Friday/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall06Thursday/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SkypeCall06Friday/StringSbCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall06Thursday/StringSbCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/InstanceOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/InstanceOf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Rex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Rex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Trainable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SkypeCall07Friday/InstanceOf/Trainable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +54,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MessageFiltersTest">
+  <component name="RunManager" selected="Application.InstanceOf">
     <configuration name="InstanceOf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SkypeCall07Friday.InstanceOf.InstanceOf" />
       <module name="stepik-java" />
@@ -133,8 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MessageFiltersTest" />
         <item itemvalue="Application.InstanceOf" />
+        <item itemvalue="Application.MessageFiltersTest" />
         <item itemvalue="Application.Plant" />
         <item itemvalue="Application.StringSbCompare" />
         <item itemvalue="Application.PersonTest" />
@@ -206,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680785413431</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Learning more OOP on Friday. Pre-call">
+      <created>1680865253396</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680865253396</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +224,8 @@
     <MESSAGE value="Some random OOP practice" />
     <MESSAGE value="Solved AsciiCharSequence" />
     <MESSAGE value="Solved AsciiCharSequence, MessageFilter; reviewed EqualsAndHashCode, MutableImmutable, changed the names of some folder for better navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved AsciiCharSequence, MessageFilter; reviewed EqualsAndHashCode, MutableImmutable, changed the names of some folder for better navigation" />
+    <MESSAGE value="Learning more OOP on Friday. Pre-call" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learning more OOP on Friday. Pre-call" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -52,6 +52,7 @@ public class Cat extends Animal implements Cloneable {
         // Shallow copy
         Cat catShallowCopy = (Cat) super.clone();
 
+
         // Deep copy
         Dog friendDeepCody = (Dog) friend.clone();
         catShallowCopy.setFriend(friendDeepCody);

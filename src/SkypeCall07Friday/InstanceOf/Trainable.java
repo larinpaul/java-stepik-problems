@@ -4,7 +4,7 @@ public interface Trainable {
 
     int DEFAULT_TRAINING_HOURS = 3;
 
-    public void train();
+    abstract public void train();
 
     default void trainForHours() {
         for (int i = 0; i < DEFAULT_TRAINING_HOURS; i++) {

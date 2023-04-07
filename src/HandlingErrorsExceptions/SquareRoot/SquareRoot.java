@@ -25,7 +25,8 @@ public class SquareRoot {
     }     // Go back to step 2 and repeat the process until the condition is met.
     // In other words, the loop repeatedly updates the value of `y` until it gets close enough to the true square root of x
 
-    // This loop is an implementation of the Babylonian method (Newton-Raphson method)
+    // This loop is an implementation of the Babylonian method (Newton-Raphson method
+    // )
     // for calculating the square root of a number.
 
     // The idea behind this method is to repeatedly calculate the average

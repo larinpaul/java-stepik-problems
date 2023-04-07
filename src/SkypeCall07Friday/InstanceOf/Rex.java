@@ -2,10 +2,10 @@ package SkypeCall07Friday.InstanceOf;
 
 public class Rex extends GermanShepherd {
 
-    // Parametrized constructor ()
-    public Rex(int age, String name, String color) {
-        super(age, name, color);
-    }
+//    // Parametrized constructor ()
+//    public Rex(int age, String name, String color) {
+//        super(age, name, color);
+//    }
 
     // This is also a Default constructor (although it is better to call it Explicit Constructor, (Явный Конструктор))
     // A default constructor is a special type of constructor that has no parameters.
@@ -15,8 +15,16 @@ public class Rex extends GermanShepherd {
         super(777, "Rex", "Brown");
     }
 
+//    public String getInnerClassToy() {
+//        return FavoriteToy.getToyName();
+//    }
+
+    private FavoriteToy fav1 = new FavoriteToy();
+
+
+
     public String getInnerClassToy() {
-        return FavoriteToy.getToyName();
+        return fav1.getToyName();
     }
 
 
@@ -25,7 +33,7 @@ public class Rex extends GermanShepherd {
     private class FavoriteToy {
         final static private String toyName = "Max the Robo-Dog";
 
-        public static String getToyName() {
+        public /*static*/ String getToyName() {
             return toyName;
         }
     }

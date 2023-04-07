@@ -13,6 +13,7 @@ public class InstanceOf {
 
     public static void main(String[] args) {
 
+        // тип переменной, имя переменной, = объект
         Animal dog1 = new Dog(1, "Doggo");
         dog1.showAge();
 //        dog1.showName(); // impossible
@@ -96,6 +97,7 @@ public class InstanceOf {
 
         Rex dog15 = new Rex();
         System.out.println(dog15.getInnerClassToy());
+        dog15.
         System.out.println(Rex.FavoriteFood.foodName);
 
 
