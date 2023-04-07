@@ -1,4 +1,4 @@
-package HandlingErrorsExceptions.SquareRoot;
+package HandlingErrorsExceptions.MethodCall;
 
 public class MethodCallTest {
 
@@ -45,6 +45,7 @@ public class MethodCallTest {
     // P.S.S. Эта задача в уроке про исключения не случайно :)
 
     public static void main(String[] args) {
+
 
 
 

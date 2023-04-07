@@ -1,4 +1,4 @@
-package HandlingErrorsExceptions.SquareRoot;
+package HandlingErrorsExceptions.MethodCall;
 
 public class MethodCall {
 
