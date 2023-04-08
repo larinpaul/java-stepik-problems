@@ -56,68 +56,75 @@ public class MessageFiltersTest {
     public static void main(String[] args) {
 
         // Инициализация анализаторов для проверки в порядке данного набора анализаторов
+        // An array of String containing two keywords used to identify spam comments,
+        // and `commentMaxLength`, which defines the maximum length of comments in characters
         String[] spamKeywords = {"spam", "bad"};
         int commentMaxLength = 40;
-        TextAnalyzer[] textAnalyzers1 = {
+        // These lines create six arrays of TextAnalyzer objects, each with a different order of analyzers.
+        // Each array represents a different set of criteria for identifying "bad" comments
+        TextAnalyzer[] textAnalyzersArr1 = {
                 new SpamAnalyzer(spamKeywords),
                 new NegativeTextAnalyzer(),
                 new TooLongTextAnalyzer(commentMaxLength)
         };
-        TextAnalyzer[] textAnalyzers2 = {
+        TextAnalyzer[] textAnalyzersArr2 = {
                 new SpamAnalyzer(spamKeywords),
                 new TooLongTextAnalyzer(commentMaxLength),
                 new NegativeTextAnalyzer()
         };
-        TextAnalyzer[] textAnalyzers3 = {
+        TextAnalyzer[] textAnalyzersArr3 = {
                 new TooLongTextAnalyzer(commentMaxLength),
                 new SpamAnalyzer(spamKeywords),
                 new NegativeTextAnalyzer()
         };
-        TextAnalyzer[] textAnalyzers4 = {
+        TextAnalyzer[] textAnalyzersArr4 = {
                 new TooLongTextAnalyzer(commentMaxLength),
                 new NegativeTextAnalyzer(),
                 new SpamAnalyzer(spamKeywords)
         };
-        TextAnalyzer[] textAnalyzers5 = {
+        TextAnalyzer[] textAnalyzersArr5 = {
                 new NegativeTextAnalyzer(),
                 new SpamAnalyzer(spamKeywords),
                 new TooLongTextAnalyzer(commentMaxLength)
         };
-        TextAnalyzer[] textAnalyzers6 = {
+        TextAnalyzer[] textAnalyzersArr6 = {
                 new NegativeTextAnalyzer(),
                 new TooLongTextAnalyzer(commentMaxLength),
                 new SpamAnalyzer(spamKeywords)
         };
         // Тестовые комментарии
-        String[] tests = new String[8];
-        tests[0] = "This comment is so good."; // OK
-        tests[1] = "This comment is so Loooooooooooooooooooooooooooooooooooong."; // TOO_LONG
-        tests[2] = "Very negative comment !!!!=(!!!!;"; // NEGATIVE_TEXT
-        tests[3] = "Very BAAAAAAAAAAAAAAAAAAAAAAAAAAAD comment with :|;"; // NEGATIVE_TEXT or TOO_LONG
-        tests[4] = "This comment is so bad...."; // SPAM
-        tests[5] = "This comment is an example of spam, maybeeeeeeeeeeeeeeeee!"; // SPAM or TOO_LONG
-        tests[6] = "Negative bad :( spam."; // SPAM or NEGATIVE_TEXT
-        tests[7] = "Very bad, very negative =(, very ........................."; // SPAM or NEGATIVE_TEXT or TOO_LONG
-
-        TextAnalyzer[][] textAnalyzers = {
-                textAnalyzers1,
-                textAnalyzers2,
-                textAnalyzers3,
-                textAnalyzers4,
-                textAnalyzers5,
-                textAnalyzers6
+        // These lines create an array of String called `tests`,
+        // which contains eight different comments to test against the various sets of criteria
+        String[] testsArr = new String[8];
+        testsArr[0] = "This comment is so good."; // OK
+        testsArr[1] = "This comment is so Loooooooooooooooooooooooooooooooooooong."; // TOO_LONG
+        testsArr[2] = "Very negative comment !!!!=(!!!!;"; // NEGATIVE_TEXT
+        testsArr[3] = "Very BAAAAAAAAAAAAAAAAAAAAAAAAAAAD comment with :|;"; // NEGATIVE_TEXT or TOO_LONG
+        testsArr[4] = "This comment is so bad...."; // SPAM
+        testsArr[5] = "This comment is an example of spam, maybeeeeeeeeeeeeeeeee!"; // SPAM or TOO_LONG
+        testsArr[6] = "Negative bad :( spam."; // SPAM or NEGATIVE_TEXT
+        testsArr[7] = "Very bad, very negative =(, very ........................."; // SPAM or NEGATIVE_TEXT or TOO_LONG
+        // This line creates a two-dimensional array of `TextAnalyzer` arrays, with each ro
+        TextAnalyzer[][] textAnalyzersArr = {
+                textAnalyzersArr1,
+                textAnalyzersArr2,
+                textAnalyzersArr3,
+                textAnalyzersArr4,
+                textAnalyzersArr5,
+                textAnalyzersArr6
         };
-
+        // This line creates a new `CheckLabels()` object, which will be used
+        // to test the comments against the set of criteria
         CheckLabels testObject = new CheckLabels();
         int numberOfAnalyzer; // Номер анализатора, указанный в идентификаторе textAnalyzers{№}
-        int numberOfTest = 0; // Номер теста, который соответствует индексу тестоых комментариев
-        for (String test : tests) {
-            numberOfAnalyzer = 1;
-            System.out.println("Test #" + numberOfTest + ": ");
-            System.out.println(test);
-            for (TextAnalyzer[] analyzers : textAnalyzers) {
+        int numberOfTest = 0; // Номер теста, который соответствует индексу тестовых комментариев
+        for (String testText : testsArr) { // in the first iteration, `test` contains the value of `tests[0]`, `tests[1]`, etc.
+            numberOfAnalyzer = 1;   // the purpose of the loop is to test various combinations of TextAnalyzer objects
+            System.out.println("Test #" + numberOfTest + ": ");         // with different test comments represented by the `tests` array
+            System.out.println(testText);
+            for (TextAnalyzer[] analyzersArr : textAnalyzersArr) {
                 System.out.println(numberOfAnalyzer + ": ");
-                System.out.println(testObject.checkLabels(analyzers, test));
+                System.out.println(testObject.checkLabels(analyzersArr, testText));
                 numberOfAnalyzer++;
             }
             numberOfTest++;

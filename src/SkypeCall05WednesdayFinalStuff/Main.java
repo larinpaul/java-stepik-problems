@@ -1,4 +1,4 @@
-package SkypeCall05ThursdayFinalStuff;
+package SkypeCall05WednesdayFinalStuff;
 
 public class Main {
 

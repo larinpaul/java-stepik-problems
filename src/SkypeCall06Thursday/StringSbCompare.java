@@ -1,4 +1,4 @@
-package SkypeCall06Friday;
+package SkypeCall06Thursday;
 
 public class StringSbCompare {
 
