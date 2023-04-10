@@ -24,7 +24,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-import java.util.function.
+import java.util.function.*;
 
 public class Main {
 

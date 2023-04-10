@@ -79,7 +79,7 @@ class Pair<T, U> {
 
         Pair<Integer, String> pair2 = Pair.of(1, "hello");
         boolean mustBeTrue = pair.equals(pair2); // true!
-        boolean mustAlsoBeTrue = pair.hashCode == pair2.hashCode(); // true!
+        boolean mustAlsoBeTrue = pair.hashCode() == pair2.hashCode(); // true!
 
 
     }
