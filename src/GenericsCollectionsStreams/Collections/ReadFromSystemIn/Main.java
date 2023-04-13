@@ -20,53 +20,33 @@ package GenericsCollectionsStreams.Collections.ReadFromSystemIn;
 // 6 4 2
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
-
-import java.util.function.*;
 
 public class Main {
 
     // TODO Explain all
     public static void main(String[] args) {
+        // Create a new Scanner object to read input from System.in
         Scanner scanner = new Scanner(System.in);
+        // Create a new ArrayList to hold the integers read from input
         ArrayList<Integer> list = new ArrayList<>();
+        // Read integers from input and add them to the list
         while (scanner.hasNextInt()) {
             list.add(scanner.nextInt());
         }
+        // Create a new ArrayList to hold the integers at odd positions
         ArrayList<Integer> result = new ArrayList<>();
+        // Iterate over the list and add integers at odd positions to the result list
         for (int i = 1; i < list.size(); i += 2) {
             result.add(list.get(i));
         }
+        // Reverse the order of the integers in the result list
         Collections.reverse(result);
+        // Iterate over the integers in the result list and print them to System.out
         for (int num : result) {
             System.out.println(num + " ");
         }
     }
-
-
-
-
-//    // TODO Explain all // DOESN'T WORK!
-//    public static void main(String[] args) {
-//        Scanner scanner;
-//        scanner = new Scanner(System.in);
-//        int n = 0;
-//        ArrayList<Integer> arrayList = new ArrayList<>();
-//
-//        while (scanner.hasNextInt()) {
-//            if (n % 2 != 0) {
-//                arrayList.add(scanner.nextInt());
-//            }
-//            else scanner.next();
-//            n++;
-//        }
-//
-//        for (int i = arrayList.size() -1; i >= 0; i--) {
-//            System.out.println(arrayList.get(i) + " ");
-//        }
-//    }
-
 
 }

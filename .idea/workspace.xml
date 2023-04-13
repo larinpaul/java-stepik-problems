@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="Stepik Generics Pair equals() and hashCode()">
+    <list default="true" id="a69a4f1a-8aae-44a9-a798-497752bba1b9" name="Changes" comment="Added comment explanations to ReadAsString">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericsCollectionsStreams/Collections/ReadFromSystemIn/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericsCollectionsStreams/Collections/ReadFromSystemIn/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericsCollectionsStreams/Generics/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericsCollectionsStreams/Generics/Pair.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680985416553</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added comment explanations to ReadAsString">
+      <created>1681412150495</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681412150495</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +177,7 @@
     <MESSAGE value="Some more problems from Stepik 2023\04\07. SquareRoot, MethodCall(Add comments!)" />
     <MESSAGE value="Preparing to solve some more problems from Stepik 2023\04\07." />
     <MESSAGE value="Some more Stepik problems (need further clarifications, though).&#10;2023/04/09" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some more Stepik problems (need further clarifications, though).&#10;2023/04/09" />
+    <MESSAGE value="Added comment explanations to ReadAsString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comment explanations to ReadAsString" />
   </component>
 </project>

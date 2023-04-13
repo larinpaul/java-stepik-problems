@@ -45,9 +45,14 @@ class Pair<T, U> {
 
     @Override
     public boolean equals(Object o) {
+        // Check if the object being compares is the same as this object
         if (this == o) return true;
+        // Check if the object being compared is null or if it is not an instance of the same class as this object
         if (o == null || getClass() != o.getClass()) return false;
+        // Cast the object to a Pari of any two types
         Pair<?, ?> pair = (Pair<?, ?>) o;
+        // Check if the first and second elements of this Pair
+        // are equal to the first and second elements of the other Pair being compared
         return Objects.equals(first, pair.first) && Objects.equals(second, pair.second);
     }
 
